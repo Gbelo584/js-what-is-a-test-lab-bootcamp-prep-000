@@ -16,8 +16,8 @@ describe('what-is-a-test', () => {
 
   describe('Message', () => {
     it(' ', () => {
-      expect(index.message).toInclude(Susan)
-      expect(index.message).toInclude(40)
+      expect(index.message).toInclude('Susan')
+      expect(index.message).toInclude('Susan')
     })
   })
 
